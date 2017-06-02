@@ -17,7 +17,7 @@ def find_neighborhood(result, csv_file, month):
     """
 
     list_neighborhood = []
-
+    found = False
     with open(csv_file, 'r') as csv_input:
         reader = csv.reader(csv_input)
         # skip the headers
@@ -29,8 +29,11 @@ def find_neighborhood(result, csv_file, month):
             for neighborhood in result.keys():
                 if point_inside_polygon(lon, lat, result[neighborhood]):
                     list_neighborhood.append(neighborhood)
-                else:
-                    list_neighborhood.append('NA')
+                    found = True
+                    break
+            if found == False:
+                list_neighborhood.append('NA')
+            found = False
 
     pickle.dump(list_neighborhood, open(month + '_neighborhood_column', 'wb'))
     neighborhood_list = pickle.load(open(month + '_neighborhood_column'), 'rb') # a list of neighborhood
