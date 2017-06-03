@@ -16,9 +16,11 @@ uber_path = ['C:\\Users\\HAOWEN-PC\\Desktop\\apr_time.csv',
             'C:\\Users\\HAOWEN-PC\\Desktop\\aug_time.csv',
             'C:\\Users\\HAOWEN-PC\\Desktop\\sep_time.csv']
 
+path = ''
 
-month = 6
-data = pd.read_csv(uber_path[2])
+
+month = 4
+data = pd.read_csv(path)
 # data = data.drop(data.columns[[0,2,7,8,9,10,11,12,13,14,15,16]], 1) # for clean taxi data
 rand_index =  np.array(sample(range(len(data)), 10000)) # create random index
 data_sample = data.iloc[rand_index] # get 10000 random rows from df
