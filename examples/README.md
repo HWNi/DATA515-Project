@@ -12,6 +12,7 @@ The filter options allow users to select a certain period they feel they are mos
 
 ## Examples
 ### Case 1
+Assume one of our users is an uber driver. He lives in ridgewood and he wants to find which hours has most pickups in his neighborhood by using our interface. He wants to figure out when is the best time to start his driving during a day. For his case, I suggest him 
 
 ### Case 2
 
