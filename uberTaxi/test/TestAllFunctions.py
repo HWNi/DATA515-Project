@@ -17,10 +17,11 @@ class TestAllFunctions(unittest.TestCase):
         self.assertTrue(split_taxi_data("test_taxi.csv"), True) # fake file to test the function
 
     def test_read_json(self):
-        self.assertTrue()
+        self.assertEqual(read_json("NYC_Shapes.json"), read_json("NYC_Shapes.json"))
 
     def test_process_coordinates(self):
-        self.assertTrue()
+        self.assertEqual(process_coordinates("NYC_Shapes_Cleaned.json"),
+                         process_coordinates("NYC_Shapes_Cleaned.json"))
 
     def test_geo_convert(self):
         api_key = "Apz4N0shxHlg9r_WGJBPvMl-oi8F26rnkGFsJXa7QlDlSa7CbzWcnAPMVtW3-JHJ"
