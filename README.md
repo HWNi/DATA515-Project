@@ -42,9 +42,9 @@ The project has the following structure:
 
 ### Project Data
 
-#### Uber pick-up data
+- Uber pick-up data
 
-Uber data contains over 18 million Uber pickups in New York City from April to September 2014 and from January to June 2015. FiveThirtyEight originally obtained the data from the NYC Taxi & Limousine Commission (TLC) by submitting a Freedom of Information Law. We downloaded the dataset from Kaggle.com. The uber dataset contain pickup date and time, detailed location information, uber base code. 
+   Uber data contains over 18 million Uber pickups in New York City from April to September 2014 and from January to June 2015. FiveThirtyEight originally obtained the data from the NYC Taxi & Limousine Commission (TLC) by submitting a Freedom of Information Law. We downloaded the dataset from Kaggle.com. The uber dataset contain pickup date and time, detailed location information, uber base code. 
 
 * NYC yellow taxi data
 
