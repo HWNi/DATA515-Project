@@ -21,6 +21,6 @@ Suppose a user plans to visit NYC next month (July), he booked a hotel in ......
 For his case, I suggest him switches between uber and taxi and compare the number of pickups at midnight at his location for several days in July. He can either tell from the change of color or the number shown in popup. He can also do the same step but select other months to help him make a better decision.
 
 ### Case 3
-Our users can also be some taxicab companies. A taxicab company had 200 taxicabs last year. However, only 80% taxicabs were rented out over the year. The company wants to figure out what are possible reasons behind the case. They want to use our interface to check whether change in number of pickups for uber and taxi has any effects on rental performance based on their records during the same period in 2014. In this way, they can make a prediction and change their strategy of purchase this year.
+Our users can also be some taxicab companies. A taxicab company had 200 taxicabs last year. However, only 80% taxicabs were rented out over the year. The company wants to figure out what are possible reasons behind the case. They want to use our interface to check whether changes in number of uber and taxi pickups have any effects on rental performance based on their records during the same period in 2014. In this way, they can decide whether change their strategy of purchase this year or not.
 
-
+In this case, the company may needs an overall changing in amount of pickups in NYC. I suggest to select two traffic points of a day and look at how color changes with each passing day.
