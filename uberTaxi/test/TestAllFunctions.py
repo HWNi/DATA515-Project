@@ -8,26 +8,30 @@ from check_points import point_inside_polygon
 
 
 class TestAllFunctions(unittest.TestCase):
-
+    """
+    A unit test class to test our methods.
+    """
 
     def test_split_data(self):
         self.assertTrue(split_uber_data("test_uber.csv"), True) # fake file to test the function
         self.assertTrue(split_taxi_data("test_taxi.csv"), True) # fake file to test the function
 
-    # def test_read_json(self):
-    #     self.assertTrue()
+    def test_read_json(self):
+        self.assertTrue()
 
-    # def test_process_coordinates(self):
-    #     self.assertTrue()
+    def test_process_coordinates(self):
+        self.assertTrue()
 
-
-    # def test_geo_convert(self):
-    #     self.assertTrue(geo_forward())
-    #     self.assertTrue(geo_reverse())
-
+    def test_geo_convert(self):
+        api_key = "Apz4N0shxHlg9r_WGJBPvMl-oi8F26rnkGFsJXa7QlDlSa7CbzWcnAPMVtW3-JHJ"
+        address = "4326 University Way NE, Seattle, WA 98105"
+        latitude, longitude = geo_forward(address, api_key)
+        self.assertEqual(latitude, 47.660424) and self.assertEqual(longitude, -122.312818)
+        zipcode = geo_reverse(latitude, longitude, api_key)
+        self.assertEqual(zipcode, 98105)
 
     def test_find_neighborhood(self):
-        result = {'Airport':[[1, 2], [2, 3]]}   # fake dictionary to test the function
+        result = {'Airport':[[1, 2], [2, 3]]} # fake dictionary to test the function
         self.assertTrue(find_neighborhood(result, "test.csv"))
 
     def test_point_inside_polygon(self):
