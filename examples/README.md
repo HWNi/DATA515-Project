@@ -3,7 +3,7 @@ This file provides users detailed examples of how to use our interface and what 
 Our interface mainly consists of two parts: regional heat map and filter options.
 ### Regional Heat Map
 Regional heat map summarizes and aggregates data within pre-defined hundreds of neighborhoods in New York City. Initially, it displays community district boundaries and color of this neighborhood generates by corresponding number of pickups. Without making any selections, users can have a general overview of what kind of information they can have from heat map by simply hover over it. When a user hovers over a neighborhood, it displays a popup containing neighborhood name, number of pickups in this neighborhood and geographic coordinates of current point.
-![ss1](https://cloud.githubusercontent.com/assets/26759376/26755754/57157ce2-4849-11e7-84cb-8e4a1bdf61be.png)
+![screen shot 2017-06-06 at 2 45 17 pm](https://user-images.githubusercontent.com/26759376/26853451-f1a2a33c-4ac6-11e7-8ea2-c51928b1e505.png)
 
 ### Filter Options
 The filter options allow users to select between Uber and taxi as well as a certain period they feel they are most interested in. Filters include a checkbox button group, a slider and two dropdown menus. Checkbox button group provides selections between Uber and taxi. The initial value is Uber data on April 1st at hour 0. Users can select either some of the filters or all of the filters. If only some of filters are selected, then the others will keep their initializing defaults.
