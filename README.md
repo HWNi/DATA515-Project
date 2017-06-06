@@ -42,7 +42,7 @@ Uber data contains over 18 million Uber pickups in New York City from April to S
 
 * NYC yellow taxi data
 
-The yellow taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The dataset is publicly available: on http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
+The yellow taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The dataset is publicly available on: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
 
 
 
