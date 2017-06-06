@@ -6,7 +6,7 @@ Regional heat map summarizes and aggregates data within pre-defined hundreds of 
 ![ss1](https://cloud.githubusercontent.com/assets/26759376/26755754/57157ce2-4849-11e7-84cb-8e4a1bdf61be.png)
 
 ### Filter Options
-The filter options allow users to select between Uber and taxi as well as a certain period they feel they are most interested in. Fliters include a checkbox button group, a slider and two dropdown menus. Checkbox button group provides selections between Uber and taxi. The initial value is Uber data on April 1st at hour 0. Users can select either some of the fliters or all of the fliters. If only some of fliters are selected, then the others will keep their initializing defaults.
+The filter options allow users to select between Uber and taxi as well as a certain period they feel they are most interested in. Filters include a checkbox button group, a slider and two dropdown menus. Checkbox button group provides selections between Uber and taxi. The initial value is Uber data on April 1st at hour 0. Users can select either some of the filters or all of the filters. If only some of filters are selected, then the others will keep their initializing defaults.
 
 
 ## Examples
