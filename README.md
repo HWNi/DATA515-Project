@@ -1,7 +1,8 @@
 ## How is Uber changing Taxis in New York City?
 
-Uber is a new riding model which connects drivers and passengers and provides ride-sharing service with a fair rate.
+Uber is a new riding model which connects drivers and passengers and provides ride-sharing service with a fair rate. This visualization tool enable user to analyze and compare Uber and taxi traffic of neighbors in NYC. 
 
+To use the tool, you can clone this repository onto your computer and use the NYC_Uber_Taxi.html page.
 
 
 ### Organization of the  project
@@ -54,6 +55,7 @@ The project has the following structure:
       |- LICENSE
       |- README.md
       |- setup.py
+      |- NYC_Uber_Taxi.html
       
 
 ### Project Data
