@@ -11,9 +11,11 @@ The filter options allow users to select between Uber and taxi as well as a cert
 
 ## Examples
 ### Case 1
-Assume one of our users is an uber driver. As a part-time uber driver, he only spend three hour to drive uber per day. He lives in ridgewood and he wants to find which hours has most pickups in his neighborhood by using our interface. In order to have pickups as many as possible, he wants to figure out when is the best time to start his driving during a day. For his case, I suggest him 
+Assume one of our users is an uber driver. As a part-time uber driver, he only spends three hour to drive uber per day. He lives in ridgewood and he wants to find which hours has most pickups in his neighborhood by using our interface. In order to have pickups as many as possible, he wants to figure out when is the best time to start his driving during a day. For his case, I suggest him 
 
 ### Case 2
-Suppose a user plans to visit NYC next month, he booked a hotel in ....... district
+Suppose a user plans to visit NYC next month (July), he booked a hotel in ....... district. He would like to go to club at midnight. He feels it is kind of hard to request a ride at such a late night, so he wants to use our interface to check whether request a taxi or uber ride is better for him at his location.
+
+### Case 3
 
 
