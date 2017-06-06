@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import csv
+import os
 
 from check_points import point_inside_polygon
 
@@ -14,6 +15,10 @@ def find_neighborhood(result, csv_file):
     Parameter: result, a dictionary with key: neighborhood, value: (Lat, Lon) pairs
                csv_file, input csv file
                month, the month corresponding to the csv file
+
+    Return: True or False for unittest purpose
+            True, the output file saved
+            False, the output file fail to saved
     """
 
     neighborhoods_list = []
@@ -45,3 +50,9 @@ def find_neighborhood(result, csv_file):
 
     # converts the data frame to csv file
     df.to_csv("final_" + csv_file)
+
+    # return True or False for unittest purpose
+    if os.path.exists("final_" + csv_file):
+        return True
+    else :
+        return False
