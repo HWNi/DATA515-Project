@@ -18,8 +18,8 @@ The user only needs to check uber data in this case. I suggest him random select
 ### Case 2
 Suppose a user plans to visit NYC next month (July), he booked a hotel in ....... district. He would like to go to nightclubs at midnight. He feels it is kind of hard to request a ride at such a late night, so he wants to use our interface to check whether request a taxi or uber ride is better for him at his location.
 
-For his case, I suggest him switches between uber and taxi and compare the number of pickups at midnight at his location for several days in July. He can either tell from the change of color or the number shown in popup.
+For his case, I suggest him switches between uber and taxi and compare the number of pickups at midnight at his location for several days in July. He can either tell from the change of color or the number shown in popup. He can also do the same step but select other months to help him make a better decision.
 
 ### Case 3
-
+Our users can also be some taxicab companies. A taxicab company had 200 taxicabs last year. However, only 80% taxicabs were rented out. The company wants to figure out what are possible reasons behind the case. The company wants to use our interface to 
 
