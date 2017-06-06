@@ -16,6 +16,8 @@ Assume one of our users is an uber driver. As a part-time uber driver, he only s
 
 The user only needs to check uber data in this case. I suggest him random selects several days during each month and moves the hour slider side to side. By looking at changes in the color and the number of pickups in his neiborhood, he'll find which hours of a day normally have most pickups around his place. The results will give him a suggestion on his start time.
 
+![screen shot 2017-06-06 at 2 53 32 pm](https://user-images.githubusercontent.com/26759376/26853784-40aa50e6-4ac8-11e7-8f79-cb21443fdde2.png)
+
 ### Case 2
 Suppose a user plans to visit NYC by the end of month (June), he booked a hotel in ....... district. He would like to go to nightclubs at midnight. He feels it is kind of hard to request a ride at such a late night, so he wants to use our interface to check whether request a taxi or uber ride is better for him at his location.
 
