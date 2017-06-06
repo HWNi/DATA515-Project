@@ -13,9 +13,12 @@ The project has the following structure:
          |- Taxi_samples/
             |- dimensions.txt
             |- taxi_04_2014_sample.csv
-            |- 
-            |- 
+            |- taxi_05_2014_sample.csv
+            |- taxi_06_2014_sample.csv
          |- Uber_samples/
+            |- uber_04_2014_sample.csv
+            |- uber_05_2014_sample.csv
+            |- uber_06_2014_sample.csv
      	   |- NYC_Shapes.json
      	   |- NYC_Shapes_Cleaned.json     	 
       |- doc/
@@ -24,17 +27,30 @@ The project has the following structure:
          |- Presentation_How_is_Uber_Changing_Taxi_in_New_York_City.pdf
          |- Technical_Review
       |- examples/
-         |- slider_example
+         |- EXAMPLES.md
       |- uberTaxi/
-         |- test
+         |- jupyter_notebook/
+            |- Add_Neighborhoods.ipynb
+            |- Bokek_Haowen.ipynb
+            |- Bokek_Zicong.ipynb
+         |- script/
+            |- check_points.py
+            |- find_neighborhood.py
+            |- geo_convert.py
+            |- process_coordinates.py
+            |- queries.py
+            |- random_sample.py
+            |- read_json.py
+            |- split_data.py
+         |- test/
             |- ...
-         |- check_points.py
-         |- find_neighborhood.py
-         |- geo_convert.py
-         |- process_coordinates.py
-         |- queries.py
-         |- read_json.py
-         |- split_data.py
+            |- check_points.py
+            |- find_neighborhood.py
+            |- geo_convert.py
+            |- process_coordinates.py
+            |- queries.py
+            |- read_json.py
+            |- split_data.py
       |- LICENSE
       |- README.md
       |- setup.py
@@ -42,29 +58,29 @@ The project has the following structure:
 
 ### Project Data
 
-- Uber pick-up data
+#### Uber pick-up data
 
-   Uber data contains over 18 million Uber pickups in New York City from April to September 2014 and from January to June 2015. FiveThirtyEight originally obtained the data from the NYC Taxi & Limousine Commission (TLC) by submitting a Freedom of Information Law. We downloaded the dataset from Kaggle.com. The uber dataset contain pickup date and time, detailed location information, uber base code. 
+Uber data contains over 18 million Uber pickups in New York City from April to September 2014 and from January to June 2015. FiveThirtyEight originally obtained the data from the NYC Taxi & Limousine Commission (TLC) by submitting a Freedom of Information Law. We downloaded the dataset from Kaggle.com. The uber dataset contain pickup date and time, detailed location information, uber base code. 
 
-- NYC yellow taxi data
+#### NYC yellow taxi data
 
-   The yellow taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The dataset is publicly available on: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
+The yellow taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The dataset is publicly available on: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
 
 
 
 ### Use Case 
 
-- Uber driver
+#### Uber driver
 
-   Uber driver wants to figure out where to find more customers at a specific time of the day. For example, Tom is part-time uber driver. He lives in Long Island and he wants to find what time during the day there are the most pickups in his neighborhood or at a specific time, where to find more business.
+Uber driver wants to figure out where to find more customers at a specific time of the day. For example, Tom is part-time uber driver. He lives in Long Island and he wants to find what time during the day there are the most pickups in his neighborhood or at a specific time, where to find more business.
 
-- Passanger
+#### Passanger
 
-   Passenger wants to compare the availability of Uber and taxi, and make a decision. For example, David is a passenger. He plans to visit NYC next week. He enjoys night life and stay in the pub 3am. It is hard to request a ride at that time. He wants to use our application to decide whether Uber or taxi has more availability at that time.
+Passenger wants to compare the availability of Uber and taxi, and make a decision. For example, David is a passenger. He plans to visit NYC next week. He enjoys night life and stay in the pub 3am. It is hard to request a ride at that time. He wants to use our application to decide whether Uber or taxi has more availability at that time.
 
-- Taxi company 
+#### Taxi company 
 
-   Taxi company studies their business strategies for the next year. For example, Happytaxi is taxi company based in NYC. They want to figure out how Uber affect taxi traffic. So that they can decide how many taxicab they should purchase next year.
+Taxi company studies their business strategies for the next year. For example, Happytaxi is taxi company based in NYC. They want to figure out how Uber affect taxi traffic. So that they can decide how many taxicab they should purchase next year.
 
 
 
