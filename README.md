@@ -1,4 +1,4 @@
-## How is Uber changing Taxis in New York City?
+## How is Uber changing Taxi in New York City?
 
 Uber is a new riding model which connects drivers and passengers and provides ride-sharing service with a fair rate. This visualization tool enable user to analyze and compare Uber and taxi traffic of neighbors in NYC. 
 
@@ -44,14 +44,7 @@ The project has the following structure:
             |- read_json.py
             |- split_data.py
          |- test/
-            |- ...
-            |- check_points.py
-            |- find_neighborhood.py
-            |- geo_convert.py
-            |- process_coordinates.py
-            |- queries.py
-            |- read_json.py
-            |- split_data.py
+            |- TestAllFunction.py
       |- LICENSE
       |- README.md
       |- setup.py
