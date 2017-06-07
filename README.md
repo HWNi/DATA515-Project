@@ -30,14 +30,11 @@ The project has the following structure:
       |- examples/
          |- EXAMPLES.md
       |- uberTaxi/
-         |- jupyter_notebook/
-            |- Add_Neighborhoods.ipynb
-            |- Bokek_Haowen.ipynb
-            |- Bokek_Zicong.ipynb
          |- script/
             |- check_points.py
             |- find_neighborhood.py
             |- geo_convert.py
+            |- main.py
             |- process_coordinates.py
             |- queries.py
             |- random_sample.py
