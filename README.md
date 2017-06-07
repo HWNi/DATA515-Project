@@ -91,6 +91,10 @@ Filter Options
 The filter options allow users to select between Uber and taxi as well as a certain period they feel they are most interested in. Filters include a checkbox button group, a slider and two dropdown menus. Checkbox button group provides selections between Uber and taxi. The initial value is Uber data on April 1st at hour 0. Users can select either some of the filters or all of the filters. If only some of filters are selected, then the others will keep their initializing defaults.
 
 #### Interaction
+The complete interaction process of our tool is: 
+
+User first select the month, date, hour, and uber/taxi indicator as inputs and system prepare the SQL statements. Then through pyodbc, the database will execute the query and return a demanded collection of records containing the aggregated pickup number. We transformed this collection into a matrix that can be loaded into the source of bokeh heatmap. By reading the NYC shape boundaries data and the matrix we just transformed, a bokeh heatmap will be generated in python and the color on the heatmap encodes the aggregated pickup number. Finally, four filters are appened to allow some interactions. The connection between heatmap and filters is achieved by Javascript Callbacks, which is an advanced topic that we spent a large of time to understand and implement it successfully.   
+Basically, to summarize, the Bokeh heatmap provides the main interface of our visualization. Database provides what to display in the main interface, and fours filters connected to the heatmap control the display.
 
 
 ### Limitation and Future Work
