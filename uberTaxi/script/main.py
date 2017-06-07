@@ -40,7 +40,7 @@ driver= '{ODBC Driver 13 for SQL Server}'
 cnxn = pyodbc.connect('DRIVER='+driver+';PORT=1433;SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
 
-uber_statement = 'SELECT [month],[day],[hour],[neighborhood], count(*) as pick_up\
+uber_statement = 'SELECT [neighborhood], [month],[day],[hour], count(*) as pick_up\
                  FROM [dbo].[uber_2014] \
                  GROUP BY [month], [day], [hour],[neighborhood] \
                  ORDER BY [month], [day], [hour],[neighborhood]'
@@ -54,7 +54,7 @@ while row:
     row = cursor.fetchone()
     uber_data.append(row)
 
-taxi_statement = 'SELECT [month],[day],[hour],[neighborhood], count(*) as pick_up \
+taxi_statement = 'SELECT [neighborhood], [month],[day],[hour], count(*) as pick_up \
                  FROM [dbo].[uber_2014] \
                  GROUP BY [month], [day], [hour],[neighborhood] \
                  ORDER BY [month], [day], [hour],[neighborhood]'
